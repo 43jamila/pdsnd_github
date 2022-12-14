@@ -1,0 +1,6 @@
+websites:
+https://sparkbyexamples.com/
+https://pandas.pydata.org/
+
+book:
+Python Data Analytics
