@@ -1,8 +1,5 @@
 import time
-from typing import List
 import pandas as pd
-import numpy
-import statistics as st
 
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
@@ -12,6 +9,8 @@ cities = ['chicago', 'new york city', 'washington']
 name_of_months = ["All", "January", "February", "March", "April", "May", "June", "July", "August", "September",
                   "October", "November", "December"]
 days = ["All", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+# this function to take specific inputs from users
 
 
 def get_filters():
@@ -51,6 +50,8 @@ def get_filters():
 
     print('-' * 40)
     return city, month, day
+
+# this function to load data from files
 
 
 def load_data(_city, month: object, day):
