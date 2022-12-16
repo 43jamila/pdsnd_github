@@ -11,6 +11,8 @@ name_of_months = ["All", "January", "February", "March", "April", "May", "June",
                   "October", "November", "December"]
 days = ["All", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
+# this function to take specific inputs from users
+
 
 def get_filters():
     """
@@ -49,6 +51,8 @@ def get_filters():
 
     print('-' * 40)
     return city, month, day
+
+# this function to load data from files
 
 
 def load_data(_city, month: object, day):
